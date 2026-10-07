@@ -11,12 +11,12 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background: #f5eee6;
+            background:rgb(255, 255, 255);
         }
 
         .login-container {
             width: 380px;
-            background: #ffffff;
+            background:rgb(212, 249, 255);
             padding: 40px;
             border-radius: 15px;
             box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
@@ -72,7 +72,7 @@
             margin-top: 8px;
             border: none;
             border-radius: 8px;
-            background: #6f4e37;
+            background:rgb(201, 147, 0);
             color: white;
             font-size: 15px;
             font-weight: bold;
@@ -103,8 +103,8 @@
 <div class="login-container">
 
     <div class="logo">
-        <img src="assets/logo-coffill.png" alt="Logo Coffill">
-        <p>Silakan masuk ke akun Anda</p>
+        <img src="assets/logo.png" alt="Logo kopi">
+        <p><b>SILAHKAN MASUKAN AKUN ANDA</b></p>
     </div>
 
         <form action="api/pengguna/ceklogin.php" method="POST">
